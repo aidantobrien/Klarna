@@ -30,6 +30,7 @@ class LoanApplication(BaseModel):
     loan_amount: float
     existing_klarna_debt: float
     days_since_first_loan: int
+    num_active_loans: int
 
     new_exposure_7d: float
     new_exposure_14d: float
