@@ -81,22 +81,22 @@ curl -X POST "http://127.0.0.1:8000/predict_batch" \
   },
   {
     "loan_id": "loan_002",
-    "loan_amount": 1000,
-    "existing_klarna_debt": 500,
-    "days_since_first_loan": 365,
-    "num_active_loans": 2,
-    "new_exposure_7d": 50,
-    "new_exposure_14d": 100,
+    "loan_amount": 300,
+    "existing_klarna_debt": 100,
+    "days_since_first_loan": 120,
+    "num_active_loans": 1,
+    "new_exposure_7d": 20,
+    "new_exposure_14d": 50,
     "num_failed_payments_3m": 0,
-    "num_failed_payments_6m": 1,
-    "num_failed_payments_1y": 2,
-    "num_confirmed_payments_3m": 3,
-    "num_confirmed_payments_6m": 5,
-    "amount_repaid_3m": 200,
-    "amount_repaid_6m": 400,
-    "amount_repaid_1y": 800,
-    "merchant_group": "A",
-    "merchant_category": "Electronics"
+    "num_failed_payments_6m": 0,
+    "num_failed_payments_1y": 0,
+    "num_confirmed_payments_3m": 2,
+    "num_confirmed_payments_6m": 3,
+    "amount_repaid_3m": 50,
+    "amount_repaid_6m": 100,
+    "amount_repaid_1y": 150,
+    "merchant_group": "Clothing & Shoes",
+    "merchant_category": "General Shoes & Clothing"
   }
 ]'
 ```
