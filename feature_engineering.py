@@ -21,6 +21,7 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
         df['amount_repaid_1y'] / df['loan_amount']
     )
 
+    
     # Confirmed payment acceleration
     df['confirmed_ratio_3m_6m'] = np.where(
         df[['num_confirmed_payments_3m','num_confirmed_payments_6m']].isna().any(axis=1),
